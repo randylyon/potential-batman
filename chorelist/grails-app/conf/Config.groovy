@@ -5,7 +5,8 @@
  grails.config.locations = [ "classpath:${appName}-config.groovy",
 //                           "classpath:${appName}-config.properties",
 //                           "file:${userHome}/.grails/${appName}-config.properties",
-                             "file:${userHome}/.grails/${appName}-config.groovy"]
+                             "file:${userHome}/.grails/${appName}/Config.groovy",
+                             "file:${userHome}/.grails/${appName}/DataSource.groovy"]
 
 // if (System.properties["${appName}.config.location"]) {
 //    grails.config.locations << "file:" + System.properties["${appName}.config.location"]
